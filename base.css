@@ -1,0 +1,75 @@
+/**
+* This project contains 2 stylesheets:
+*
+* base.css
+* components.css
+*/
+
+
+
+
+
+/**
+* This stylesheet contains:
+*
+* box-sizing
+* helpers for layout
+* global values (variables)
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #BOX-SIZING
+\*------------------------------------*/
+
+* { box-sizing: border-box }
+
+
+
+
+
+/*------------------------------------*\
+  #HELPERS FOR LAYOUT
+\*------------------------------------*/
+
+.inline-block { display: inline-block }
+
+.table-wrapper { display: table }
+
+.table-cell {
+  display:        table-cell;
+  vertical-align: middle
+}
+
+.flex-wrapper {
+  display:          flex;
+  flex-direction:   column;
+  justify-content:  space-evenly
+}
+
+
+
+
+
+/*------------------------------------*\
+  #GLOBAL VALUES
+\*------------------------------------*/
+
+:root {
+  --primary-background:    #6200EA;
+  --secondary-background:  white;
+  --form-background:       #F4F3F5;
+  --footer-background:     #211138;
+}
+
+:root {
+  --primary-font-color:       white;
+  --secondary-font-color:     #6200EA;
+  --paragraph-font-color:     #211138;
+  --placeholder-font-color:   rgb(33,17,56,0.2);
+  --footer-font-color:        #B2ACBA;
+  --footer-span-font-color:   #6200EA;
+}
