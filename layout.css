@@ -1,0 +1,36 @@
+/**
+* This stylesheet contains:
+*
+* left-container
+* right-container
+* footer
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #LEFT-CONTAINER
+\*------------------------------------*/
+
+/**
+* Extend ´.left-container´ in components.css
+*/
+
+.left-container {
+  height:     800px;
+  width:      800px;
+}
+
+  .left-container__logo {
+    position: absolute;
+    top:      15px;
+    left:     30px
+  }
+
+  .left-container__icon-text-container {
+    padding-left:   60px;
+    padding-right:  75px;
+    margin:         220px 130px;
+  }
