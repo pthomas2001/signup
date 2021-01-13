@@ -24,17 +24,17 @@
 }
 
   .icon-text-container__icon {
-    color:          var(--primary-background);
-    background:     var(--primary-font-color);
-    font-size:      2.2222vh;
-    font-weight:    bold;
-    padding:        10px;
-    border-radius:  9999px;
-    margin-right:   16px
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+    color:            var(--primary-background);
+    background:       var(--primary-font-color);
+    font-size:        2.2222vh;
+    font-weight:      bold;
+    height:           40px;
+    width:            40px;
+    border-radius:    9999px;
+    margin-right:     16px
   }
 
-
-
-  .icon-text-container__text {
-    font-size: 30px
-  }
+  .icon-text-container__text { font-size: 30px }
