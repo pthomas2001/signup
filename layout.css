@@ -24,9 +24,9 @@
 }
 
   .left-container__logo {
-    position: absolute;
-    top:      15px;
-    left:     30px
+    position:       absolute;
+    top:            15px;
+    left:           30px
   }
 
   .left-container__icon-text-container {
@@ -34,3 +34,20 @@
     padding-right:  75px;
     margin:         220px 130px;
   }
+
+
+.right-container {
+  position:   absolute;
+  top:        0;
+  left:       800px;
+  height:     800px;
+  width:      800px;
+}
+
+  .right-container__login-box {
+    padding:        60px;
+    padding-bottom: 65px;
+    margin:         130px
+  }
+
+  .right-container__login-box * { display: block }

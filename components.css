@@ -19,12 +19,12 @@
 */
 
 .left-container {
-  background: var(--primary-background);
-  color:      var(--primary-font-color);
+  background:       var(--primary-background);
+  color:            var(--primary-font-color);
 }
 
   .icon-text-container__icon {
-    display:          flex;
+    display:          flex !important;
     justify-content:  center;
     align-items:      center;
     color:            var(--primary-background);
@@ -34,7 +34,20 @@
     height:           40px;
     width:            40px;
     border-radius:    9999px;
-    margin-right:     16px
+    margin-right:     16px;
   }
 
   .icon-text-container__text { font-size: 30px }
+
+
+.right-container {
+  background:       url('assets/background.jpg') right top no-repeat;
+  background-size:  cover;
+  filter:           grayscale()
+}
+
+  .right-container__login-box {
+    background: white
+  }
+
+    
