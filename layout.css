@@ -2,7 +2,7 @@
 * This stylesheet contains:
 *
 * left-container
-* right-container
+* right-container and login-box
 * footer
 */
 
@@ -38,6 +38,17 @@
   }
 
 
+
+
+
+/*------------------------------------*\
+  #RIGHT-CONTAINER AND LOGIN-BOX
+\*------------------------------------*/
+
+/**
+* Extend ´.right-container´ and ´.login-box´ in components.css
+*/
+
 .right-container {
   position:   absolute;
   top:        0;
@@ -58,3 +69,17 @@
 }
 
   .login-box * { display: block }
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+/**
+* Extend ´.footer´ in components.css
+*/
+
+.footer { padding: 42px 0; }

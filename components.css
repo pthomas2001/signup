@@ -2,7 +2,7 @@
 * This stylesheet contains:
 *
 * left-container
-* right-container
+* right-container and login-box
 * footer
 */
 
@@ -15,7 +15,7 @@
 \*------------------------------------*/
 
 /**
-* These files extend ´.left-container´ in components.css
+* These files extend ´.left-container´ in layout.css
 */
 
 .left-container {
@@ -39,6 +39,17 @@
 
   .icon-text-container__text { font-size: 30px }
 
+
+
+
+
+/*------------------------------------*\
+  #RIGHT-CONTAINER AND LOGIN-BOX
+\*------------------------------------*/
+
+/**
+* These rules extend ´.right-container´ and ´.login-box´ in layout.css
+*/
 
 .right-container {
   background:       url('assets/background.jpg')
@@ -104,3 +115,29 @@
     color:            var(--primary-background);
     background:       var(--primary-font-color)
   }
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+/**
+* These rules extend ´.footer´ in layout.css
+*/
+
+.footer { background: var(--footer-background) }
+
+  .footer__paragraph {
+    color:            var(--footer-font-color);
+    font-size:        12px;
+    letter-spacing:   2.4px;
+    font-weight:      bold;
+    text-decoration:  none;
+    text-transform:   uppercase;
+    text-align:       center;
+  }
+
+  .footer__span { color: var(--footer-span-font-color) }
