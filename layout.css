@@ -33,6 +33,8 @@
     padding-left:   60px;
     padding-right:  75px;
     margin:         220px 130px;
+    width:          540px;
+    height:         360px;
   }
 
 
@@ -44,10 +46,15 @@
   width:      800px;
 }
 
-  .right-container__login-box {
-    padding:        60px;
-    padding-bottom: 65px;
-    margin:         130px
-  }
 
-  .right-container__login-box * { display: block }
+.login-box {
+  position:       absolute;
+  top:            130px;
+  left:           930px;
+  height:         540px;
+  width:          540px;
+  padding:        60px;
+  padding-bottom: 65px;
+}
+
+  .login-box * { display: block }

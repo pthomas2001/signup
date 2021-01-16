@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="components.css">
 
   <script src="https://kit.fontawesome.com/75724ff95e.js" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
     <div class="left-container inline-block">
       <img class="left-container__logo" src="assets/logo_50.svg" alt="Logo">
     
-      <div class="left-container__icon-text-container icon-text-container flex-wrapper">
+      <div class="left-container__icon-text-container icon-text-container flex-wrapper space-evenly">
 
         <div class="vertical-centered">
           <i class="icon-text-container__icon icon-text-container__icon--first inline-block fas fa-hands-helping"></i>
@@ -55,20 +55,28 @@
 
 
 
-    <div class="right-container">
+    <div class="right-container"></div>
 
-        <div class="right-container__login-box login-box">
-          <p class="login-box__call-to-action">Some catchy call to action text.</p>
+    
 
-          <form action="">
-            <input class="login-box__input" type="email" placeholder="Login/Email" name="email">
-            <input class="login-box__input" type="password" placeholder="Password" name="password">
-            <a class="login-box__forget-password" href="#">Forget password?</a>
-            <button class="login-box__sign-up-btn">Sign up</button>
-            <button class="login-box__log-in-btn">Log in</button>
-          </form>
+    <div class="login-box">
+      <p class="login-box__call-to-action">Some catchy <br> call to action text.</p>
 
+      <form action="">
+
+        <div class="flex-wrapper space-between height-for-form">
+          <input class="login-box__input" type="email" placeholder="Login/Email" name="email">
+          <input class="login-box__input" type="password" placeholder="Password" name="password">
         </div>
+        
+        <a class="login-box__forget-password" href="#">Forget password?</a>
+
+        <div class="flex-wrapper space-between height-for-form">
+          <button class="login-box__btn login-box__btn--sign-up">Sign up</button>
+          <button class="login-box__btn login-box__btn--log-in">Log in</button>
+        </div>
+        
+      </form>
 
     </div>
 

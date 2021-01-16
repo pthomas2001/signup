@@ -60,10 +60,13 @@ body {
 .flex-wrapper {
   display:          flex;
   flex-direction:   column;
-  justify-content:  space-evenly;
-  width:            540px;
-  height:           360px;
 }
+
+.space-evenly { justify-content: space-evenly; }
+
+.space-between { justify-content: space-between }
+
+.height-for-form { height: 115px }
 
 .vertical-centered {
   display:      flex;
@@ -89,7 +92,7 @@ body {
   --primary-font-color:       white;
   --secondary-font-color:     #6200EA;
   --paragraph-font-color:     #211138;
-  --placeholder-font-color:   rgb(33,17,56,0.2);
+  --placeholder-font-color:   rgb(33,17,56,0.3);
   --footer-font-color:        #B2ACBA;
   --footer-span-font-color:   #6200EA;
 }
